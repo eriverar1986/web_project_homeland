@@ -1,0 +1,28 @@
+.header{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__logo {
+  margin: 34px 0 0 0;
+  max-width: 254.8373565673828px;
+  max-height: 68.94309997558594px;
+}
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .header__logo {
+    margin: 30px 0 0 0;
+    max-width: 254px;
+    max-height: 66px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .header__logo {
+     margin: 20px 0 0 0;
+    max-width: 188px;
+    max-height: 52px;
+  }
+}
